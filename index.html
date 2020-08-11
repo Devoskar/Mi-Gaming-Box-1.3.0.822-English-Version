@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<style>
+  html {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #020814;
+  }
+</style>
+<script>
+  window.register_plugin_added(function (result) {
+    if (!window.hasOwnProperty('pluginAddedEvent')) {
+      window.pluginAddedEvent = [new CustomEvent('plugin_added', {
+        detail: {
+          plugin: result
+        }
+      })]
+    } else {
+      window.pluginAddedEvent.push(new CustomEvent('plugin_added', {
+        detail: {
+          plugin: result
+        }
+      }))
+    }
+  })
+</script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" /><!-- Set the web application to run in full screen mode -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- Hide status bar -->
+  <meta name="format-detection" content="telephone=no" /><!-- Tell the device to ignore recognizing the number on the page as a phone number -->
+  <title>Mi Gaming Box</title>
+</head>
+<body style="zoom: 1;overflow: hidden; background: #020814;">
+<div style="zoom: 1;background: #020814;overflow: hidden;"
+     id="app"></div>
+<script type="text/javascript" src="./main.js"></script></body>
+</html>
