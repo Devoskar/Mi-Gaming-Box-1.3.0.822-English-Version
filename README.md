@@ -1,6 +1,6 @@
 # Mi-Gaming-Box-1.3.0.809-English-Version
 
-*** Works perfectly on the latest update (1.3.0.813) as well! ***
+*** Works perfectly on the latest update (1.3.0.815) as well! ***
 
 1) Close Mi Gaming Box (if you have not already done so)
 2) Move the files index.html and main.js along the path:
