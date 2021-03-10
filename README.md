@@ -12,3 +12,6 @@ or to a different path if the program was installed in a different directory (if
 3) Launch Mi Gaming Box
 4) Share your experiences on https://www.reddit.com/r/Xiaomi/
 5) Profit! :+1:
+
+P.S.
+If you own (just like me :wink:) Xiaomi's Mi Gaming Laptop (2nd edition) here you can find the latest system drivers, this page also always has the latest version of the Mi Gaming Box app :point_right: https://www.mi.com/service/bijiben/drivers/15-game-8
